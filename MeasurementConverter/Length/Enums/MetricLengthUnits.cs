@@ -1,0 +1,31 @@
+namespace MeasurementConverter.Length.Enums
+{
+    public enum MetricLengthUnit
+    {
+        RONNAMETER,
+        YOTTAMETER,
+        ZETTAMETER,
+        EXAMETER,
+        PETAMETER,
+        TERAMETER,
+        GIGAMETER,
+        MEGAMETER,
+        KILOMETER,
+        HECTOMETER,
+        DECAMETER,
+        METER,
+        DECIMETER,
+        CENTIMETER,
+        MILIMETER,
+        MICROMETER,
+        NANOMETER,
+        PICOMETER,
+        FEMTOMETER,
+        ATTOMETER,
+        ZEPTOMETER,
+        YOCTOMETER,
+        RONTOMETER,
+        QUECTOMETER,
+        FOOT,
+    }
+}
