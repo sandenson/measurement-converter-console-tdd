@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeasurementConverter", "MeasurementConverter\MeasurementConverter.csproj", "{A7B49C1D-9FE4-4498-B5DC-EA6C7DF9AE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeasurementConverter.Test", "MeasurementConverter.Test\MeasurementConverter.Test.csproj", "{60024E1C-EB80-48CD-BC78-E49E5424E171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B49C1D-9FE4-4498-B5DC-EA6C7DF9AE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B49C1D-9FE4-4498-B5DC-EA6C7DF9AE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B49C1D-9FE4-4498-B5DC-EA6C7DF9AE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B49C1D-9FE4-4498-B5DC-EA6C7DF9AE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60024E1C-EB80-48CD-BC78-E49E5424E171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60024E1C-EB80-48CD-BC78-E49E5424E171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60024E1C-EB80-48CD-BC78-E49E5424E171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60024E1C-EB80-48CD-BC78-E49E5424E171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79A5AB4D-05F2-49ED-B723-7B845EABD339}
+	EndGlobalSection
+EndGlobal
