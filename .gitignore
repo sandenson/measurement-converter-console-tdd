@@ -46,6 +46,9 @@ x64/
 *.svclog
 *.scc
 
+# ReportGenerator test reports
+coveragereport*/
+
 # Visual C++ cache files
 ipch/
 *.aps
