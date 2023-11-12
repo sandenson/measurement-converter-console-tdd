@@ -27,7 +27,6 @@ namespace MeasurementConverter.Length.Enums
             {MetricLengthUnit.ZEPTOMETER, 0.000000000000000000001M},
             {MetricLengthUnit.YOCTOMETER, 0.000000000000000000000001M},
             {MetricLengthUnit.RONTOMETER, 0.000000000000000000000000001M},
-            {MetricLengthUnit.QUECTOMETER, 0.000000000000000000000000000001M},
             {MetricLengthUnit.FOOT, 0.3048M},
         };
 

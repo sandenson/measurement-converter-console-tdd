@@ -25,7 +25,6 @@ namespace MeasurementConverter.Length.Enums
         ZEPTOMETER,
         YOCTOMETER,
         RONTOMETER,
-        QUECTOMETER,
         FOOT,
     }
 }
