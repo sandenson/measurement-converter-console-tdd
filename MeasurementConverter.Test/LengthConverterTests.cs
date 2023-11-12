@@ -69,4 +69,32 @@ public class UnitTest1
 
         Assert.Equal(ToFixedDecimal(expected, 5), ToFixedDecimal(result, 5));
     }
+
+    [Fact]
+    public void ShouldConvertMeasuresTooHighAndThrowOverflowException()
+    {
+        Assert.Throws<OverflowException>(
+            () => LengthConverter.MetricToMetric(
+                decimal.MaxValue, MetricLengthUnit.RONNAMETER, MetricLengthUnit.RONTOMETER
+            )
+        );
+
+        Assert.Throws<OverflowException>(
+            () => LengthConverter.ImperialToImperial(
+                decimal.MaxValue, ImperialLengthUnit.NAUTICAL_MILE, ImperialLengthUnit.TWIP
+            )
+        );
+
+        Assert.Throws<OverflowException>(
+            () => LengthConverter.MetricToImperial(
+                decimal.MaxValue, MetricLengthUnit.RONNAMETER, ImperialLengthUnit.TWIP
+            )
+        );
+
+        Assert.Throws<OverflowException>(
+            () => LengthConverter.ImperialToMetric(
+                decimal.MaxValue, ImperialLengthUnit.NAUTICAL_MILE, MetricLengthUnit.RONTOMETER
+            )
+        );
+    }
 }
